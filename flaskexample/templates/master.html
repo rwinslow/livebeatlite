@@ -1,0 +1,66 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>LiveBeat{% block title %}{% endblock %}</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <!-- jQuery -->
+        <script src="/static/js/jquery/jquery-1.12.0.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+
+        <!-- Load c3.css -->
+        <link href="/static/js/c3/c3.css" rel="stylesheet" type="text/css">
+
+        <!-- Load d3.js and c3.js -->
+        <script src="/static/js/d3/d3.v3.min.js"></script>
+        <script src="/static/js/c3/c3.min.js"></script>
+
+        <link rel="stylesheet" href="/static/css/normalize.css">
+        <link rel="stylesheet" href="/static/css/main.css">
+        <script src="/static/js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1><a href="/">LiveBeat</a></h1>
+        </header>
+
+        {% block content %}
+        <a class="thumb" style="background-image: url(/static/img/thumbs/82878048.png);" href="/go/82878048">
+            <div class="grad">
+                <div class="title">The International 2016</div>
+                <div class="subtitle">Main Event Day 3</div>
+            </div>
+        </a>
+
+        <a class="thumb" style="background-image: url(/static/img/thumbs/83012529.png);" href="/go/83012529">
+            <div class="grad">
+                <div class="title">The International 2016</div>
+                <div class="subtitle">Main Event Day 4</div>
+            </div>
+        </a>
+
+        <a class="thumb" style="background-image: url(/static/img/thumbs/83196893.png);" href="/go/83196893">
+            <div class="grad">
+                <div class="title">The International 2016</div>
+                <div class="subtitle">Main Event Day 5</div>
+            </div>
+        </a>
+
+        <a class="thumb" style="background-image: url(/static/img/thumbs/83400929.png);" href="/go/83400929">
+            <div class="grad">
+                <div class="title">The International 2016</div>
+                <div class="subtitle">Main Event Day 6</div>
+            </div>
+        </a>
+        {% endblock %}
+
+        <script src="/static/js/plugins.js"></script>
+        <script src="/static/js/main.js"></script>
+
+    </body>
+</html>
