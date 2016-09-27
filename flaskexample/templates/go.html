@@ -26,6 +26,9 @@
     var options = {
         width: 854,
         height: 480,
+        {% if video_id == "82878048" %}
+        time: "5h32m0s",
+        {% endif %}
         video: "v{{video_id}}"
     };
     var player = new Twitch.Player("twitch-player", options);
