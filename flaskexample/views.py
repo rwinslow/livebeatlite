@@ -13,6 +13,10 @@ from flaskexample import app
 def index():
     return render_template('master.html')
 
+@app.route('/slides')
+def slides():
+    return render_template('slides.html')
+
 @app.route('/test', methods=['GET', 'POST'])
 def test():
     return render_template('overlay_test.html')
