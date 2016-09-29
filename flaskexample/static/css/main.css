@@ -202,6 +202,7 @@ a.thumb:nth-of-type(2n+1) {
 }
 
 #filter {
+    display: none;
     margin-top: 340px;
     position: absolute;
     text-align: center;
@@ -226,7 +227,7 @@ a.thumb:nth-of-type(2n+1) {
 }
 
 #midlayer {
-    /*display: none;*/
+    display: none;
     pointer-events: none;
     position: absolute;
     z-index: 2;
@@ -242,7 +243,7 @@ a.thumb:nth-of-type(2n+1) {
 
 #chart-wrap {
     pointer-events: none;
-    /*display: none;*/
+    display: none;
     position: absolute;
     margin-top: 363px;
     margin-left: 0;
